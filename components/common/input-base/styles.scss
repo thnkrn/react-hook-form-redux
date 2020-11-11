@@ -1,0 +1,55 @@
+.input {
+  &__wrapper {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: solid 2px var(--primary);
+    box-sizing: border-box;
+
+    &.full-width {
+      width: 100%;
+    }
+
+    &.error {
+      border-bottom-color: var(--error);
+    }
+
+    &.hide-underline {
+      border-width: 0;
+    }
+  }
+
+  &__input {
+    flex: 1;
+    background-color: transparent;
+    appearance: none;
+    border: 0;
+    outline: none;
+    padding: 8px 0;
+    width: 100%;
+
+    ::placeholder {
+      text-overflow: ellipsis;
+    }
+
+    // Hide up and down arrow for input number type
+    ::-webkit-outer-spin-button,
+    ::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+  &__adornment {
+    height: 24px;
+    display: flex;
+    align-items: center;
+
+    &.start {
+      justify-content: flex-start;
+    }
+
+    &.end {
+      justify-content: flex-end;
+    }
+  }
+}

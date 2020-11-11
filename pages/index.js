@@ -1,11 +1,7 @@
-import './styles.scss'
+import Homepage from '../components/homepage'
 
 export default function Home() {
   return (
-    <div>
-        <h1 className="example">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-    </div>
+    <Homepage />
   )
 }
