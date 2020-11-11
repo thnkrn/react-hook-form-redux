@@ -13,7 +13,6 @@ import './styles.scss'
  * @param {boolean} param0.error flag to set error appearance
  * @param {boolean} param0.hideUnderline flag to show/hide underline
  * @param {number} param0.adornmentWidth set width for prefix area
- * @param {string} param0.typo set typo for input
  */
 function InputBase({
   onChange,
@@ -23,7 +22,6 @@ function InputBase({
   postfix,
   error,
   adornmentWidth,
-  typo,
   hideUnderline,
   ...props
 }) {
@@ -78,7 +76,6 @@ InputBase.defaultProps = {
   error: false,
   hideUnderline: false,
   adornmentWidth: undefined,
-  typo: Typo.body1,
 }
 
 InputBase.propTypes = {
@@ -95,7 +92,6 @@ InputBase.propTypes = {
   onChange: PropTypes.func,
   error: PropTypes.bool,
   adornmentWidth: PropTypes.number,
-  typo: PropTypes.oneOf(Object.values(Typo)),
 }
 
 export default React.memo(InputBase)

@@ -2,7 +2,7 @@
   &__wrapper {
     display: inline-flex;
     align-items: center;
-    border-bottom: solid 2px var(--primary);
+    border-bottom: solid 2px black;
     box-sizing: border-box;
 
     &.full-width {
@@ -10,7 +10,7 @@
     }
 
     &.error {
-      border-bottom-color: var(--error);
+      border-bottom-color: red;
     }
 
     &.hide-underline {

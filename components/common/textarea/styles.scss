@@ -1,0 +1,30 @@
+.textarea {
+  &__container {
+    border-bottom: 2px solid var(--primary);
+
+    &.full-width {
+      width: 100%;
+    }
+
+    &.error {
+      border-bottom-color: var(--error);
+    }
+  }
+
+  &__input {
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    margin: 8px 0 0;
+    resize: none;
+    overflow: hidden;
+
+    &.full-width {
+      width: 100%;
+    }
+
+    &.show-scroll {
+      overflow-y: scroll;
+    }
+  }
+}
