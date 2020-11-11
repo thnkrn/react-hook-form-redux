@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["include", "function", "return", "extend", "keyframes", "-webkit-keyframes", "if", "mixin"]
+    }]
+  }
+}
