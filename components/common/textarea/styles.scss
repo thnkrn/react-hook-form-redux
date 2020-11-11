@@ -1,13 +1,13 @@
 .textarea {
   &__container {
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid black;
 
     &.full-width {
       width: 100%;
     }
 
     &.error {
-      border-bottom-color: var(--error);
+      border-bottom-color: red;
     }
   }
 
