@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
 import React, { useCallback, useMemo, useState } from 'react'
+import PropTypes from 'prop-types'
 import InputBase from '../input-base'
 import InputLayout from '../input-layout'
 import Textarea from '../textarea'

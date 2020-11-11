@@ -42,10 +42,7 @@ function InputBase({
       })}
     >
       {prefix && (
-        <div
-          style={adornmentStyles}
-          className="input__adornment start"
-        >
+        <div style={adornmentStyles} className="input__adornment start">
           {prefix}
         </div>
       )}
@@ -56,10 +53,7 @@ function InputBase({
         {...props}
       />
       {postfix && (
-        <div
-          style={adornmentStyles}
-          className="input__adornment end"
-        >
+        <div style={adornmentStyles} className="input__adornment end">
           {postfix}
         </div>
       )}

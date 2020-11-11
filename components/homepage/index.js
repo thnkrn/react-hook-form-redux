@@ -1,4 +1,4 @@
-import FormContainer from '../form-container'
+import FormContainer from 'components/form-container'
 import './styles.scss'
 
 export default function Homepage() {
